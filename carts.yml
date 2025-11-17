@@ -2,7 +2,7 @@ spring:
   application:
     name: cart-service
   datasource:
-    driver-class-name: com.mysql.cj.jdbc.Driver
+    driver-class-name: com.oracle.Driver
     password: root
     url: jdbc:mysql://localhost:3306/FD35
     username: root
