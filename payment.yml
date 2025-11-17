@@ -1,0 +1,17 @@
+spring.application.name=payment-service
+
+
+# Database properties (driverclassname , url , username , password)
+
+spring.datasource.driver-class-name=org.h2.Driver
+spring.datasource.url=jdbc:h2:mem:FD35
+spring.datasource.username=sa
+spring.datasource.password=sa
+
+
+# DATA JPA properties (hbm2ddl , showsql , dialect)
+
+spring.jpa.hibernate.ddl-auto=update
+spring.jpa.show-sql=false
+spring.jpa.properties.hibernate.format_sql=false
+
